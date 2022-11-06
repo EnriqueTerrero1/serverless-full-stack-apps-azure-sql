@@ -2,7 +2,7 @@
 
 internal static class ServiceCollectionExtensions
 {
-    internal static IServiceCollection AddBusDataManagerServices(
+    /*internal static IServiceCollection AddBusDataManagerServices(
         this IServiceCollection services, IConfiguration configuration)
     {
         services.AddLogging()
@@ -18,5 +18,5 @@ internal static class ServiceCollectionExtensions
         services.AddHttpClient<BusDataManagerService>();
 
         return services;
-    }
+    }*/
 }
